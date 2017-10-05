@@ -8350,6 +8350,10 @@ button.close {
   }
 }
 
+body {
+  background: white;
+}
+
 .blue_bar,
 .btn-blue {
   background: #4990e2;
