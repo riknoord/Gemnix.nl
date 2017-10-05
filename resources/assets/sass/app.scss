@@ -7,3 +7,123 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$gemnix_primary_clr:#f8a53f;
+$gemnix_secondary_clr:#303030;
+$gemnix_sub_clr:#dddddd;
+
+
+.blue_bar{
+  background:#4990e2;
+  color:white;
+}
+.orange_transition{
+  background: rgb(247,109,29);
+  background: -moz-linear-gradient(45deg, rgba(247,109,29,1) 0%, rgba(250,214,95,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(247,109,29,1) 0%,rgba(250,214,95,1) 100%);
+  background: linear-gradient(45deg, rgba(247,109,29,1) 0%,rgba(250,214,95,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76d1d', endColorstr='#fad65f',GradientType=1 );
+}
+
+.btn-blue{
+  @extend .blue_bar;
+  border-radius: 60px;
+  padding: 10px 30px;
+}
+
+.navbar-gemnix{
+
+  a{ color:white; }
+
+  .icon-bar {
+    background:white;
+  }
+}
+
+
+.header{
+  @extend .orange_transition;
+  min-height:400px;
+
+  position:relative;
+
+  .droplet{
+    position:absolute;
+    left:0px;
+    right:0px;
+    text-align:center;
+    bottom:0px;
+  }
+
+  .header_image_container{
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-x:hidden;
+
+    img{
+      margin-left:50%;
+      transform:translateX(-50%);
+      width:2000px;
+    }
+  }
+}
+
+.footer{
+  @extend .orange_transition;
+
+  .topSection{
+    background:$gemnix_secondary_clr;
+    min-height:50px;
+
+    position:relative;
+
+    .alphaSplitter{
+
+      position:absolute;
+      left:0px;
+      right:0px;
+
+      bottom:-38px;
+      overflow-x: hidden;
+
+      img{
+        width:2000px;
+        margin-left:50%;
+        transform: translateX(-50%);
+      }
+
+    }
+
+  }
+
+  .bottomSection{
+    min-height:200px;
+  }
+}
+
+.contact{
+  background:$gemnix_sub_clr;
+
+  padding:50px 0px;
+
+  h2{
+    text-align:center;
+  }
+
+  input[type='text']{
+    margin-bottom: 10px;
+    padding: 24px;
+    border-radius: 26px;
+    box-shadow: inset 0px 1px 1px dimgrey;
+  }
+}
+
+.content{
+  min-height:200px;
+}
+
+
+
+@import "frontpage";

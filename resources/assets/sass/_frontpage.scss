@@ -1,0 +1,55 @@
+.info_blocks{
+
+  padding:20px 0px 100px 0px;
+
+  .block{
+    min-height: 400px;
+
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+
+    text-align:center;
+
+    padding:20px;
+
+    .icon{
+
+      padding:40px;
+
+      img{
+        width:90px;
+      }
+    }
+    .title{
+      font-size:18px;
+      font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+      font-weight:bold;
+      padding-bottom:20px;
+    }
+    .text{
+      font-size:10px;
+
+      margin-bottom:30px;
+    }
+  }
+}
+
+.about-us{
+
+  padding:20px 0px 100px 0px;
+
+  text-align:center;
+
+  img{
+    width:50px;
+    display:block;
+    margin:0px auto;
+  }
+
+  .text{
+    font-size:10px;
+
+    margin-bottom:30px;
+    margin-top:20px;
+  }
+}
