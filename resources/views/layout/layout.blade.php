@@ -103,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-3 col-md-6">
-                    <img src="/img/pencil.svg" />
+                    <img src="/img/Pencil.svg" />
                     <sub>over ons</sub>
                     <div class="text">
                         Vivamus nulla elit, aliquam sed accumsan at, vehicula ac metus. Donec vulputate massa tellus,
