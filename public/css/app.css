@@ -8373,6 +8373,10 @@ body {
   padding: 10px 30px;
 }
 
+.navbar-gemnix {
+  background: #303030;
+}
+
 .navbar-gemnix a {
   color: white;
 }
@@ -8382,7 +8386,7 @@ body {
 }
 
 .header {
-  min-height: 400px;
+  min-height: 450px;
   position: relative;
 }
 
@@ -8503,5 +8507,16 @@ body {
   font-size: 10px;
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  ul.nav.navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
 }
 

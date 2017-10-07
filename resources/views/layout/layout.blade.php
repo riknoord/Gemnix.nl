@@ -12,7 +12,8 @@
 <body>
 
     <div class="header">
-        <nav class="navbar navbar-gemnix">
+
+        <nav class="navbar navbar-gemnix navbar-fixed-top">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -27,8 +28,9 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -123,29 +125,33 @@
 
     <div class="contact">
         <div class="container">
-            <h2>CONTACT</h2>
-            <form class="form-horizontal">
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-md-offset-2 col-md-4">
-                            <input type="text" class="form-control" placeholder="Volledige naam">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>CONTACT</h2>
+                    <form class="form-horizontal">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-offset-2 col-md-4">
+                                    <input type="text" class="form-control" placeholder="Volledige naam">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="Telefoon nummer">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-offset-2 col-md-8">
+                                    <input type="text" class="form-control" placeholder="Email adres">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-blue" type="submit">Aanvraag versturen</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" placeholder="Telefoon nummer">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-offset-2 col-md-8">
-                            <input type="text" class="form-control" placeholder="Email adres">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <button class="btn btn-blue" type="submit">Aanvraag versturen</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 

@@ -38,6 +38,8 @@ body{
 
   a{ color:white; }
 
+  background:$gemnix_secondary_clr;
+
   .icon-bar {
     background:white;
   }
@@ -46,7 +48,7 @@ body{
 
 .header{
   @extend .orange_transition;
-  min-height:400px;
+  min-height:450px;
 
   position:relative;
 
@@ -130,3 +132,13 @@ body{
 
 
 @import "frontpage";
+
+@media (min-width: 768px){
+  ul.nav.navbar-nav{
+    display:inline-block;
+    float:none;
+  }
+  .navbar-collapse{
+    text-align:center;
+  }
+}
