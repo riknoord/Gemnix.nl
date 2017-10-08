@@ -12,6 +12,8 @@ $gemnix_primary_clr:#f8a53f;
 $gemnix_secondary_clr:#303030;
 $gemnix_sub_clr:#dddddd;
 
+
+
 body{
   background:white;
 }
@@ -36,6 +38,9 @@ body{
 
 .navbar-gemnix{
 
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+
   a{ color:white; }
 
   background:$gemnix_secondary_clr;
@@ -45,6 +50,12 @@ body{
   .icon-bar {
     background:white;
   }
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #4c4c4c;
 }
 
 

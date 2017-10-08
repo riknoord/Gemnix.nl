@@ -8374,6 +8374,8 @@ body {
 }
 
 .navbar-gemnix {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   background: #303030;
   padding-top: 14px;
   min-height: 80px;
@@ -8385,6 +8387,13 @@ body {
 
 .navbar-gemnix .icon-bar {
   background: white;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #4c4c4c;
 }
 
 .header {
@@ -8466,6 +8475,7 @@ body {
 }
 
 .info_blocks .block {
+  font-family: 'Open Sans', sans-serif;
   min-height: 400px;
   -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.19);
           box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.19);
@@ -8484,19 +8494,23 @@ body {
 
 .info_blocks .block .title {
   font-size: 18px;
-  font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
 .info_blocks .block .text {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 30px;
 }
 
 .about-us {
+  font-family: 'Lato', sans-serif;
   padding: 20px 0px 100px 0px;
   text-align: center;
+}
+
+.about-us h3 {
+  margin-bottom: 0px;
 }
 
 .about-us img {
@@ -8506,9 +8520,10 @@ body {
 }
 
 .about-us .text {
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 30px;
   margin-top: 20px;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 768px) {

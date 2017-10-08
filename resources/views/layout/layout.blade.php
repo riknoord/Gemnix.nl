@@ -8,6 +8,10 @@
 
     <link href="/css/app.css" rel="stylesheet" type="text/css">
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,900" rel="stylesheet">
+
 </head>
 <body>
 
@@ -95,6 +99,7 @@
             <div class="row">
                 <div class="col-md-offset-3 col-md-6">
                     <img src="/img/Pencil.svg" />
+                    <h3>GEMNIX</h3>
                     <sub>over ons</sub>
                     <div class="text">
                         Vivamus nulla elit, aliquam sed accumsan at, vehicula ac metus. Donec vulputate massa tellus,
