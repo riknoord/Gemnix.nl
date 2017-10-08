@@ -8375,6 +8375,8 @@ body {
 
 .navbar-gemnix {
   background: #303030;
+  padding-top: 14px;
+  min-height: 80px;
 }
 
 .navbar-gemnix a {
@@ -8488,7 +8490,7 @@ body {
 }
 
 .info_blocks .block .text {
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 30px;
 }
 

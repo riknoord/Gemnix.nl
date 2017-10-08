@@ -55,11 +55,7 @@
                             Vivamus nulla elit, aliquam sed accumsan at, vehicula ac metus. Donec vulputate massa tellus,
                             in elementum lacus vestibulum ac.
                             Sed fringilla massa at magna pharetra, in tempor lorem luctus. Phasellus tristique felis tortor,
-                            eget sagittis diam egestas laoreet. Praesent sagittis dolor nulla, vitae rhoncus orci sagittis ac.
-                            Nullam sed orci in elit lobortis tincidunt id nec orci. Maecenas lacinia sagittis massa id blandit.
-                            Cras malesuada massa sit amet lobortis gravida. Suspendisse potenti. Donec lacinia, ante sed scelerisque luctus,
-                            augue tellus interdum dolor, vel auctor nibh nisi nec felis. Quisque mollis nisi quis sem vulputate posuere.
-                            Sed consectetur augue ac lorem molestie, quis consectetur est pellentesque.
+                            eget sagittis diam egestas laoreet.
                         </div>
                         <a href="#" class="btn btn-blue">Gebruiksvriendelijk</a>
                     </div>
@@ -72,11 +68,7 @@
                             Vivamus nulla elit, aliquam sed accumsan at, vehicula ac metus. Donec vulputate massa tellus,
                             in elementum lacus vestibulum ac.
                             Sed fringilla massa at magna pharetra, in tempor lorem luctus. Phasellus tristique felis tortor,
-                            eget sagittis diam egestas laoreet. Praesent sagittis dolor nulla, vitae rhoncus orci sagittis ac.
-                            Nullam sed orci in elit lobortis tincidunt id nec orci. Maecenas lacinia sagittis massa id blandit.
-                            Cras malesuada massa sit amet lobortis gravida. Suspendisse potenti. Donec lacinia, ante sed scelerisque luctus,
-                            augue tellus interdum dolor, vel auctor nibh nisi nec felis. Quisque mollis nisi quis sem vulputate posuere.
-                            Sed consectetur augue ac lorem molestie, quis consectetur est pellentesque.
+                            eget sagittis diam egestas laoreet.
                         </div>
                         <a href="#" class="btn btn-blue">Responsive</a>
                     </div>
@@ -89,11 +81,7 @@
                             Vivamus nulla elit, aliquam sed accumsan at, vehicula ac metus. Donec vulputate massa tellus,
                             in elementum lacus vestibulum ac.
                             Sed fringilla massa at magna pharetra, in tempor lorem luctus. Phasellus tristique felis tortor,
-                            eget sagittis diam egestas laoreet. Praesent sagittis dolor nulla, vitae rhoncus orci sagittis ac.
-                            Nullam sed orci in elit lobortis tincidunt id nec orci. Maecenas lacinia sagittis massa id blandit.
-                            Cras malesuada massa sit amet lobortis gravida. Suspendisse potenti. Donec lacinia, ante sed scelerisque luctus,
-                            augue tellus interdum dolor, vel auctor nibh nisi nec felis. Quisque mollis nisi quis sem vulputate posuere.
-                            Sed consectetur augue ac lorem molestie, quis consectetur est pellentesque.
+                            eget sagittis diam egestas laoreet.
                         </div>
                         <a href="#" class="btn btn-blue">Op maat</a>
                     </div>
@@ -113,10 +101,7 @@
                         in elementum lacus vestibulum ac.
                         Sed fringilla massa at magna pharetra, in tempor lorem luctus. Phasellus tristique felis tortor,
                         eget sagittis diam egestas laoreet. Praesent sagittis dolor nulla, vitae rhoncus orci sagittis ac.
-                        Nullam sed orci in elit lobortis tincidunt id nec orci. Maecenas lacinia sagittis massa id blandit.
-                        Cras malesuada massa sit amet lobortis gravida. Suspendisse potenti. Donec lacinia, ante sed scelerisque luctus,
-                        augue tellus interdum dolor, vel auctor nibh nisi nec felis. Quisque mollis nisi quis sem vulputate posuere.
-                        Sed consectetur augue ac lorem molestie, quis consectetur est pellentesque.
+                        Nullam sed orci in elit lobortis tincidunt id nec orci.
                     </div>
                 </div>
             </div>
