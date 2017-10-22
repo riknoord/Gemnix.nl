@@ -54,7 +54,7 @@
                 <div class="col-md-4">
                     <div class="block">
                         <div class="icon"><img src="/img/gebruiksvriendelijk.svg" /></div>
-                        <div class="title">Gebruiksvriendelijk</div>
+                        <div class="title">Blablabla</div>
                         <div class="text">
                             Vivamus nulla elit, aliquam sed accumsan at, vehicula ac metus. Donec vulputate massa tellus,
                             in elementum lacus vestibulum ac.
