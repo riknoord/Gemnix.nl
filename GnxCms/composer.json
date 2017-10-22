@@ -1,0 +1,14 @@
+{
+    "name": "gemnix/gnxcms",
+    "description": "Content management dashboard",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rik van Noord",
+            "email": "rik@gemnix.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
