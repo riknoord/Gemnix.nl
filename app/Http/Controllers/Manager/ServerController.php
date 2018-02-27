@@ -11,5 +11,7 @@ class ServerController extends Controller
         if($request->hasHeader('X-Secondlife-Object-Name')){
             print_r($request->header('X-Secondlife-Object-Name'));
         }
+
+        print_r($request->headers);
     }
 }
