@@ -43,3 +43,9 @@ Route::get('/sandbox/testpage', function(){
 
     echo json_encode($sections);
 });
+
+
+
+
+
+Route::get('/manager/server', 'Manager\ServerController@index');
