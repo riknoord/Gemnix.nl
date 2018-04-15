@@ -98,8 +98,10 @@ return [
     | specify a specific custom language line for a given attribute rule.
     |
     */
-
     'custom' => [
+        'uuid' =>[
+            'unique' => 'You are allready registered.',
+        ],
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],

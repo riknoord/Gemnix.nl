@@ -11,41 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layout.layout');
-});
-Route::get('/sandbox', function(){
-    return view('sandbox');
-});
+Route::get('/', function () { return view('layout.layout'); });
 
-Route::get('/sandbox/testpage', function(){
-
-    $section = array(
-        'type' => 'default',
-        'styles' => array(
-            array('background' => 'red')
-        ),
-        'containers' => array(
-            array(
-                'type' => 'default',
-                'styles' => array(
-                    'background' => 'green'
-                ),
-                'segments' => '4_4_4'
-            )
-        )
-    );
-
-    $sections = array();
-    for($i = 1; $i < 4; $i++){
-        $sections[] = $section;
-    }
-
-    echo json_encode($sections);
-});
+/** Server Routes */
+Route::post('/manager/api/user/register'     , 'Auth\RegisterController@register');
 
 
-
-
-
-Route::get('/manager/server', 'Manager\ServerController@index');
+Route::get('/manager/api/server/initialize' , 'Manager\ServerController@index');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -19,8 +20,47 @@ class RegisterController extends Controller
     | provide this functionality without requiring any additional code.
     |
     */
+    public function register(Request $request)
+    {
+        $password = str_random(8);
 
-    use RegistersUsers;
+        $data = [
+            'name' => $request->input('user-name'), 
+            'uuid' => $request->input('user-key'), 
+            'password' => $password
+        ];
+
+        $validator = $this->validator($data);
+        if($validator->fails()){
+            return $validator->getMessageBag();
+        }
+
+        $user = $this->create($data);
+
+        return $user;
+    }
+
+    /**
+     * Get the guard to be used during registration.
+     *
+     * @return \Illuminate\Contracts\Auth\StatefulGuard
+     */
+    protected function guard()
+    {
+        return Auth::guard();
+    }
+
+    /**
+     * The user has been registered.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  mixed  $user
+     * @return mixed
+     */
+    protected function registered(Request $request, $user)
+    {
+        //
+    }
 
     /**
      * Where to redirect users after registration.
@@ -49,8 +89,8 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
+            'uuid' => 'required|string|max:255|unique:users',
+            'password' => 'required|string|max:255',
         ]);
     }
 
@@ -64,7 +104,7 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
-            'email' => $data['email'],
+            'uuid' => $data['uuid'],
             'password' => bcrypt($data['password']),
         ]);
     }
